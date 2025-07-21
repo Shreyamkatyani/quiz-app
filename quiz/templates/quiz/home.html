@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="text-center mt-5">
+    <h1 class="mb-4">👋 Welcome to QuizMaster</h1>
+    <p class="lead">Test your knowledge with fun quizzes. Log in or sign up to begin!</p>
+    <div class="mt-4">
+        <a href="{% url 'login' %}" class="btn btn-primary me-2">Login</a>
+        <a href="{% url 'signup' %}" class="btn btn-outline-primary">Sign Up</a>
+    </div>
+</div>
+{% endblock %}

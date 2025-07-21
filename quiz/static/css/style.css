@@ -1,0 +1,25 @@
+input {
+    border-radius: 0.5rem !important;
+}
+
+.input-group-text {
+    background-color: #e0e0e0;
+}
+
+.btn-primary {
+    background-color: #5a67d8;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #4c51bf;
+}
+
+
+/* Animation */
+@keyframes bounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
